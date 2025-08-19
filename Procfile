@@ -1,1 +1,1 @@
-web: ./pocketbase serve --http=0.0.0.0:3000
+web: bash start.sh
