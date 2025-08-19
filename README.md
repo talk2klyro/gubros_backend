@@ -1,1 +1,0 @@
-# gubros_backend
