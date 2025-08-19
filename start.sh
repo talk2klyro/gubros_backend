@@ -1,10 +1,17 @@
-#!/bin/bash
-
-# Download PocketBase binary from GitHub Release
-curl -L -o pocketbase https://github.com/talk2klyro/gubros_backend/releases/download/v0.1/pocketbase-linux-amd64
-
-# Make it executable
-chmod +x pocketbase
-
-# Run PocketBase server
-./pocketbase serve --http=0.0.0.0:3000
+{
+  "name": "gubros-backend",
+  "version": "1.0.0",
+  "description": "Gubros Abayas & More - minimal backend (Node + Express + PostgreSQL)",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0"
+  }
+}
