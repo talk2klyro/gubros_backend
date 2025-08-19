@@ -1,0 +1,15 @@
+{
+  "name": "gubros-backend",
+  "version": "1.0.0",
+  "description": "Strapi backend for Gubros Abayas",
+  "main": "server.js",
+  "scripts": {
+    "start": "strapi develop",
+    "build": "strapi build",
+    "develop": "strapi develop"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=18.0.0 <=20.x"
+  }
+}
